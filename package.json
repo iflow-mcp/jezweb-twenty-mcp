@@ -1,12 +1,12 @@
 {
-  "name": "twenty-mcp-server",
+  "name": "@iflow-mcp/jezweb-twenty-mcp-server",
   "version": "1.3.0",
   "description": "Easy-to-install Model Context Protocol server for Twenty CRM. Try instantly with 'npx twenty-mcp-server setup' or install globally for permanent use.",
   "main": "dist/http-server.js",
   "module": "./src/http-server.ts",
   "type": "module",
   "bin": {
-    "twenty-mcp": "./dist/cli/index.js"
+    "iflow-mcp_jezweb-twenty-mcp-server": "./dist/cli/index.js"
   },
   "scripts": {
     "build": "tsc",
